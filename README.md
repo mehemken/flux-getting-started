@@ -9,6 +9,8 @@ installs for the nginx-ingress and the Flagger resources but that's all lost
 now because it is not code. Next time I'll put it all in code.
 
 To Do
+- Pull in the kind cluster definition into this repo
+- Adjust the ingress port mappings to match nginx-ingress
 - Get the nginx-ingress deployment into Flux
 - Get the Flagger deployment into Flux
 - Get the podinfo Ingress into Flux
