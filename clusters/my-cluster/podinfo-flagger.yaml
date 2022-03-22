@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./kustomize
+  path: ./kustomize/podinfo
   prune: true
   sourceRef:
     kind: GitRepository
@@ -22,4 +22,4 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/fluxcd/flagger//kustomize/podinfo
+  url: https://github.com/fluxcd/flagger
